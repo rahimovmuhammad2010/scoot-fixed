@@ -1,1 +1,1 @@
-# scoot-full-fixed
+# scoot-responsive
