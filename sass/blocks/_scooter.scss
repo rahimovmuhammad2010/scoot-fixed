@@ -1,0 +1,231 @@
+.scooter {
+    padding: 100px 20px;
+    background-image: url('../images/scooter.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    max-width: 1440px;
+    min-height: 650px;
+    margin: 0 auto;
+
+    &__title {
+        font-family: "Space Mono";
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        max-width: 500px;
+        color: white;
+        margin-left: 200px;
+
+    }
+
+    &__lines {
+        display: flex;
+        gap: 70px;
+        align-items: center;
+    }
+
+    &__text {
+        max-width: 405px;
+        font-family: "Lexend Deca";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0px;
+        color: white;
+        margin-bottom: 50px;
+        margin-top: 15px;
+    }
+
+    &__link {
+        font-family: "Space Mono";
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: center;
+        background-color: #FCB72B;
+        padding: 15px 30px;
+        color: white;
+        border: none;
+    }
+
+    &__right__line {
+        position: relative;
+        top: 35px;
+    }
+
+    &__left__line {
+        position: relative;
+        bottom: 30px;
+    }
+
+    &__link:hover {
+        background: none;
+        color: #FCB72B;
+        border: 2px solid #FCB72B;
+    }
+}
+
+@media (max-width:769px) {
+    .scooter {
+        padding: 80px 20px;
+        background-image: url('../images/scooter-bg-tablet.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        max-width: 768px;
+        display: block;
+        margin: 0 auto;
+
+        &__lines {
+            display: block;
+            align-items: center;
+            gap: 0;
+        }
+
+        &__left__line {
+            display: none;
+        }
+
+    
+        &__right__line {
+            display: block;
+            position: relative;
+            top: 100px;
+            left:-100px;
+        }
+
+        &__title {
+            margin: 0 auto;
+            margin-bottom: 40px;
+            font-family: "Space Mono";
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 52px;
+            letter-spacing: -2.5px;
+            text-align: center;
+            max-width: 90%;
+        }
+
+        &__text {
+            margin: 0 auto;
+            margin-bottom: 50px;
+            text-align: center;
+            font-family: "Lexend Deca";
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: center;
+            max-width: 573px;
+            margin: 0 auto;
+            margin-bottom:50px;
+
+        }
+    }
+}
+
+
+@media (max-width:500px) {
+    .scooter {
+        padding: 60px 15px;
+        text-align: center;
+        width:100%;
+        display: block;
+        margin: 0 auto;
+        background-image: url('../images/scooter-bg-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        &__left__link,
+        &__left__line,
+        &__right__line {
+            display: none;
+        }
+
+        &__lines {
+            display: block;
+            gap: 0;
+        }
+
+        &__title {
+            margin: 0 auto;
+            margin-bottom: 50px;
+            font-family: "Space Mono";
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 40px;
+            letter-spacing: -2.5px;
+            text-align: center;
+            max-width: 311px;
+        }
+
+        &__text {
+            margin: 0 auto;
+            margin-bottom: 50px;
+            text-align: center;
+            font-family: "Lexend Deca";
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: center;
+            max-width: 311px;
+        }
+    }
+}
+
+@media (max-width:366px) {
+    .scooter {
+        padding: 60px 15px;
+        text-align: center;
+        max-width: 365px;
+        display: block;
+        margin: 0 auto;
+        background-image: url('../images/scooter-bg-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        &__left__link,
+        &__left__line,
+        &__right__line {
+            display: none;
+        }
+
+        &__lines {
+            display: block;
+            gap: 0;
+        }
+
+        &__title {
+            margin: 0 auto;
+            margin-bottom: 50px;
+            font-family: "Space Mono";
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 40px;
+            letter-spacing: -2.5px;
+            text-align: center;
+            max-width: 311px;
+        }
+
+        &__text {
+            margin: 0 auto;
+            margin-bottom: 50px;
+            text-align: center;
+            font-family: "Lexend Deca";
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: center;
+            max-width: 311px;
+        }
+    }
+}

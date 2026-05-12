@@ -1,0 +1,116 @@
+.signup {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0px;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #495567;
+
+    &__title {
+        max-width: 415px;
+        font-family: "Space Mono";
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14px;
+        color: white;
+    }
+
+    &__right {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media (max-width:769px) {
+    .signup {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 768px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 100px 170px;
+
+        &__title {
+            font-family: "Space Mono";
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14px;
+            text-align: center;
+            width: 457px;
+        }
+
+        &__right {
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        &__icon {
+            width: 113px;
+            height: 40;
+        }
+    }
+
+}
+
+
+@media (max-width:500px) {
+    .signup {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+width:100%;
+        box-sizing: border-box;
+        padding: 70px 20px;
+
+
+        &__title {
+            font-family: "Space Mono";
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            letter-spacing: -1.43px;
+            max-width: 311px;
+            margin: 0 auto;
+
+
+        }
+
+        &__right {
+            justify-content: center;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width:366px) {
+    .signup {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 365px;
+        box-sizing: border-box;
+        padding: 70px 20px;
+
+
+        &__title {
+            font-family: "Space Mono";
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            letter-spacing: -1.43px;
+            max-width: 311px;
+            margin: 0 auto;
+
+
+        }
+
+        &__right {
+            justify-content: center;
+            margin-top: 20px;
+        }
+    }
+}

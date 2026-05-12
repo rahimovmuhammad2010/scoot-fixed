@@ -1,0 +1,132 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 120px;
+    margin: 0 auto;
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__left__link {
+        font-family: "Space Mono";
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0px;
+        color: #939CAA;
+    }
+
+    &__right__link {
+        font-family: "Space Mono";
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: center;
+        background-color: #FCB72B;
+        padding: 15px 30px;
+        color: white;
+        border: none;
+    }
+
+    &__left__link:hover {
+        color: #FCB72B;
+        cursor: pointer;
+    }
+
+    &__right__link:hover {
+        background-color: white;
+        color: #FCB72B;
+        border: 2px solid #FCB72B;
+    }
+}
+
+.burger__menu {
+    display: none;
+}
+
+@media (max-width:769px) {
+    .header {
+        max-width: 768px;
+        padding: 30px 20px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .header__left {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 365px;
+        text-align: start;
+        padding: 25px 15px;
+        margin: 0 auto;
+
+
+        &__left__link {
+            display: none;
+        }
+
+        &__right__link {
+            display: none;
+        }
+
+        &__logo {
+            width: 75px;
+            height: 20px;
+            margin: 0 auto;
+            margin-left: 80px;
+        }
+    }
+
+    .burger__menu {
+        display: block;
+        margin: 0;
+    }
+}
+
+@media (max-width:366px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 365px;
+        text-align: start;
+        padding: 25px 15px;
+        margin: 0 auto;
+
+
+        &__left__link {
+            display: none;
+        }
+
+        &__right__link {
+            display: none;
+        }
+
+        &__logo {
+            width: 75px;
+            height: 20px;
+            margin: 0 auto;
+            margin-left: 80px;
+        }
+    }
+
+    .burger__menu {
+        display: block;
+        margin: 0;
+    }
+}
