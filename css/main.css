@@ -755,6 +755,31 @@ path:hover {
     gap: 20px;
   }
 }
+@media (max-width: 500px) {
+  .footer {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 365px;
+    box-sizing: border-box;
+    padding: 40px 20px;
+  }
+  .footer__left {
+    display: block;
+    margin: 30px;
+  }
+  .footer__left__link {
+    display: block;
+    color: white;
+    margin: 20px;
+  }
+  .footer__right {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+  }
+}
 @media (max-width: 366px) {
   .footer {
     display: block;
